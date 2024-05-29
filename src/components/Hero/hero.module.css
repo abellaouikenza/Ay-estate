@@ -1,0 +1,205 @@
+.Hero {
+    width: 100%;
+    max-width: 1440px;
+    height: 700px;
+    background-color: #F6F3F3;
+    display: flex;
+    
+    flex-direction: column ;
+    align-items: center;
+   
+    
+}
+  
+.Column {
+    
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+    width: 616px;
+    height: min-content;
+    gap: 64px;
+    opacity: 1px;
+    top: 186px;
+    left: 80px; 
+    transform: translate(-50%,30%);
+    
+    
+  }
+
+  
+.Content {
+    display: flex;
+    width: 616px;
+    height: 261px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+  }
+
+.Actions {
+    display: flex;
+    width: 298px;
+    height: 64px;
+    padding: 16px 0 0 0;
+    gap: 16px;
+    opacity: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+    
+}
+  
+.Hero_title {
+    width: 100%; 
+    max-width: 616px; 
+    height: 134px;
+    font-family: Sora, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: left;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.Hero_text {
+    width: 100%; 
+    max-width: 616px; 
+    font-family: Sora, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #000000;
+    position: relative; 
+    padding-right: 10; 
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    
+}
+
+  
+  
+.ExploreNow_Button{
+    padding:12px, 24px, 12px, 24px;
+    gap: 8px;
+    font-family: Sora, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #111111;
+    background-color: #B7E08A;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px;
+    width: 153px; ;
+    height: 48px;
+    align-items: flex-end;
+    margin-top: auto;
+  }
+  
+.LearnMore_Button{
+    width: 129px;
+    height: 48px;
+    padding: 12px 24px 12px, 24px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 12px 12px 12px 12px;
+    gap: 8px;
+    margin-left: 16px;
+    
+
+    
+  
+  }
+  
+.PlaceholderImage {
+    width: 579px;
+    height: 500px;
+    border-radius: 16px 0px 0px 0px;
+    left: 781px;
+    top: 130px;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(60%, -70%)
+  }
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    max-width: 1440px;
+    background-color: #F6F3F3;
+   
+    align-items: center;
+    
+  }
+
+
+
+.logo {
+    
+    font-family: Playball;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    width: 113px;
+    height: 42px;
+    margin-left: 100px;
+    gap: 0px;
+    opacity: 1px;
+
+  }
+  
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+.menu ul li {
+
+    display: inline;
+  }
+  
+.menu ul li a {
+    text-decoration: none;
+    color: #7F879E;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+  }
+  
+
+.ContactUs_Button {
+    
+    padding:12px, 24px, 12px, 24px;
+    gap: 8px;
+    font-family: Sora, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #111111;
+    background-color: #B7E08A;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px;
+    width: 153px; ;
+    height: 48px;
+    align-items: flex-end;
+    margin-top: 29px;
+    margin-right: 100px;
+
+
+  }
+  
